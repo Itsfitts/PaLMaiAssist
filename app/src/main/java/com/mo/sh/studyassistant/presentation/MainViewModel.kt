@@ -1,17 +1,17 @@
-package com.mo.sh.studyassistant.presentation
+package ai.assist.palmai.app.presentation
 
 import android.net.Uri
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mo.sh.studyassistant.data.repository.DataStoreRepository
-import com.mo.sh.studyassistant.domain.model.ChatWithMessages
-import com.mo.sh.studyassistant.domain.model.Message
-import com.mo.sh.studyassistant.domain.model.MessageSection
-import com.mo.sh.studyassistant.domain.model.NetworkResult
-import com.mo.sh.studyassistant.domain.repository.ChatRepository
-import com.mo.sh.studyassistant.domain.repository.PreferencesRepository
+import ai.assist.palmai.app.data.repository.DataStoreRepository
+import ai.assist.palmai.app.domain.model.ChatWithMessages
+import ai.assist.palmai.app.domain.model.Message
+import ai.assist.palmai.app.domain.model.MessageSection
+import ai.assist.palmai.app.domain.model.NetworkResult
+import ai.assist.palmai.app.domain.repository.ChatRepository
+import ai.assist.palmai.app.domain.repository.PreferencesRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow

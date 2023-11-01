@@ -1,8 +1,8 @@
-package com.mo.sh.studyassistant.util
+package ai.assist.palmai.app.util
 
 import android.text.format.DateUtils
-import com.mo.sh.studyassistant.R
-import com.mo.sh.studyassistant.app.App
+import ai.assist.palmai.app.R
+import ai.assist.palmai.app.app.App
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale

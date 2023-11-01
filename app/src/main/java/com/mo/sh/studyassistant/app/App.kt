@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.app
+package ai.assist.palmai.app.app
 
 import android.app.Application
 import androidx.annotation.StringRes

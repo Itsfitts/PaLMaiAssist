@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation
+package ai.assist.palmai.app.presentation
 
 sealed class Screen(val route: String) {
     object Main : Screen("main_screen")

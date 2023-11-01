@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.settings
+package ai.assist.palmai.app.presentation.settings
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -43,14 +43,14 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
-import com.mo.sh.studyassistant.BuildConfig
-import com.mo.sh.studyassistant.R
-import com.mo.sh.studyassistant.presentation.MainViewModel
-import com.mo.sh.studyassistant.data.repository.DataStoreRepository.Companion.THEME
-import com.mo.sh.studyassistant.data.repository.DataStoreRepository.Companion.THEME_DARK
-import com.mo.sh.studyassistant.data.repository.DataStoreRepository.Companion.THEME_LIGHT
-import com.mo.sh.studyassistant.data.repository.DataStoreRepository.Companion.THEME_SYSTEM
-import com.mo.sh.studyassistant.data.repository.DataStoreRepository.Companion.API_KEY
+import ai.assist.palmai.app.BuildConfig
+import ai.assist.palmai.app.R
+import ai.assist.palmai.app.presentation.MainViewModel
+import ai.assist.palmai.app.data.repository.DataStoreRepository.Companion.THEME
+import ai.assist.palmai.app.data.repository.DataStoreRepository.Companion.THEME_DARK
+import ai.assist.palmai.app.data.repository.DataStoreRepository.Companion.THEME_LIGHT
+import ai.assist.palmai.app.data.repository.DataStoreRepository.Companion.THEME_SYSTEM
+import ai.assist.palmai.app.data.repository.DataStoreRepository.Companion.API_KEY
 import dev.jeziellago.compose.markdowntext.MarkdownText
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalComposeUiApi::class)

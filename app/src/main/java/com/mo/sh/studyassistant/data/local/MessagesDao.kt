@@ -1,13 +1,13 @@
-package com.mo.sh.studyassistant.data.local
+package ai.assist.palmai.app.data.local
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Transaction
 import androidx.room.Update
-import com.mo.sh.studyassistant.domain.model.Chat
-import com.mo.sh.studyassistant.domain.model.ChatWithMessages
-import com.mo.sh.studyassistant.domain.model.Message
+import ai.assist.palmai.app.domain.model.Chat
+import ai.assist.palmai.app.domain.model.ChatWithMessages
+import ai.assist.palmai.app.domain.model.Message
 import kotlinx.coroutines.flow.Flow
 
 @Dao

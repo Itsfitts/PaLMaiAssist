@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.main
+package ai.assist.palmai.app.presentation.main
 
 import android.content.res.Configuration
 import androidx.compose.foundation.clickable
@@ -27,10 +27,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.mo.sh.studyassistant.R
-import com.mo.sh.studyassistant.domain.model.MessageSection
-import com.mo.sh.studyassistant.presentation.Screen
-import com.mo.sh.studyassistant.ui.theme.StudyAssistantTheme
+import ai.assist.palmai.app.R
+import ai.assist.palmai.app.domain.model.MessageSection
+import ai.assist.palmai.app.presentation.Screen
+import ai.assist.palmai.app.ui.theme.StudyAssistantTheme
 
 @Composable
 fun MainScreen(

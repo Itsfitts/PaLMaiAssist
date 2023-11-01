@@ -1,11 +1,11 @@
-package com.mo.sh.studyassistant.util
+package ai.assist.palmai.app.util
 
 import android.content.Context
 import android.net.Uri
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
-import com.mo.sh.studyassistant.R
+import ai.assist.palmai.app.R
 import java.io.IOException
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine

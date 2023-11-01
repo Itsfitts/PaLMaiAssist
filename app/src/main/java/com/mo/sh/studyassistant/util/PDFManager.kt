@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.util
+package ai.assist.palmai.app.util
 
 import android.content.Context
 import android.graphics.Canvas
@@ -10,7 +10,7 @@ import android.graphics.pdf.PdfDocument
 import android.net.Uri
 import android.text.TextPaint
 import androidx.documentfile.provider.DocumentFile
-import com.mo.sh.studyassistant.R
+import ai.assist.palmai.app.R
 import com.tom_roush.pdfbox.android.PDFBoxResourceLoader
 import com.tom_roush.pdfbox.pdmodel.PDDocument
 import com.tom_roush.pdfbox.text.PDFTextStripper

@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.common_components
+package ai.assist.palmai.app.presentation.common_components
 
 import android.net.Uri
 import androidx.compose.foundation.clickable
@@ -35,7 +35,7 @@ import androidx.compose.ui.unit.dp
 import androidx.documentfile.provider.DocumentFile
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.mo.sh.studyassistant.R
+import ai.assist.palmai.app.R
 
 @Composable
 fun AttachmentCard(uri: Uri?, isImage: Boolean, onDelete: () -> Unit) {

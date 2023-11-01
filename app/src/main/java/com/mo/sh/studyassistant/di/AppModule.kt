@@ -1,13 +1,13 @@
-package com.mo.sh.studyassistant.di
+package ai.assist.palmai.app.di
 
 import android.content.Context
 import androidx.room.Room
-import com.mo.sh.studyassistant.data.local.DB_NAME
-import com.mo.sh.studyassistant.data.local.MessagesDao
-import com.mo.sh.studyassistant.data.local.MessagesDatabase
-import com.mo.sh.studyassistant.data.network.PalmApi
-import com.mo.sh.studyassistant.util.MLManager
-import com.mo.sh.studyassistant.util.PDFManager
+import ai.assist.palmai.app.data.local.DB_NAME
+import ai.assist.palmai.app.data.local.MessagesDao
+import ai.assist.palmai.app.data.local.MessagesDatabase
+import ai.assist.palmai.app.data.network.PalmApi
+import ai.assist.palmai.app.util.MLManager
+import ai.assist.palmai.app.util.PDFManager
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -21,9 +21,9 @@ import io.ktor.client.plugins.logging.Logging
 import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
 import javax.inject.Singleton
-import com.mo.sh.studyassistant.data.repository.*
-import com.mo.sh.studyassistant.domain.repository.ChatRepository
-import com.mo.sh.studyassistant.domain.repository.PreferencesRepository
+import ai.assist.palmai.app.data.repository.*
+import ai.assist.palmai.app.domain.repository.ChatRepository
+import ai.assist.palmai.app.domain.repository.PreferencesRepository
 
 @Module
 @InstallIn(SingletonComponent::class)

@@ -1,10 +1,10 @@
-package com.mo.sh.studyassistant.domain.repository
+package ai.assist.palmai.app.domain.repository
 
 import android.net.Uri
-import com.mo.sh.studyassistant.domain.model.ChatWithMessages
-import com.mo.sh.studyassistant.domain.model.Message
-import com.mo.sh.studyassistant.domain.model.MessageSection
-import com.mo.sh.studyassistant.domain.model.NetworkResult
+import ai.assist.palmai.app.domain.model.ChatWithMessages
+import ai.assist.palmai.app.domain.model.Message
+import ai.assist.palmai.app.domain.model.MessageSection
+import ai.assist.palmai.app.domain.model.NetworkResult
 import kotlinx.coroutines.flow.Flow
 
 interface ChatRepository {

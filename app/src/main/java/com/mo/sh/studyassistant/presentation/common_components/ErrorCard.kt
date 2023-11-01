@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.common_components
+package ai.assist.palmai.app.presentation.common_components
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -11,7 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.mo.sh.studyassistant.R
+import ai.assist.palmai.app.R
 import dev.jeziellago.compose.markdowntext.MarkdownText
 
 @Composable

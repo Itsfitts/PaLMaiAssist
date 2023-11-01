@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.common_components
+package ai.assist.palmai.app.presentation.common_components
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -28,7 +28,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.mo.sh.studyassistant.R
+import ai.assist.palmai.app.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

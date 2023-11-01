@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.questions
+package ai.assist.palmai.app.presentation.questions
 
 import android.net.Uri
 import android.widget.Toast
@@ -12,11 +12,11 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import com.mo.sh.studyassistant.R
-import com.mo.sh.studyassistant.domain.model.MessageSection
-import com.mo.sh.studyassistant.presentation.MainViewModel
-import com.mo.sh.studyassistant.presentation.common_components.AttachmentType
-import com.mo.sh.studyassistant.presentation.common_components.BaseChatSurface
+import ai.assist.palmai.app.R
+import ai.assist.palmai.app.domain.model.MessageSection
+import ai.assist.palmai.app.presentation.MainViewModel
+import ai.assist.palmai.app.presentation.common_components.AttachmentType
+import ai.assist.palmai.app.presentation.common_components.BaseChatSurface
 
 @Composable
 fun QuestionsScreen(

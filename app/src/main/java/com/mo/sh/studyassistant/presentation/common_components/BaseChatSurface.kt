@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.common_components
+package ai.assist.palmai.app.presentation.common_components
 
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -47,10 +47,10 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.mo.sh.studyassistant.R
-import com.mo.sh.studyassistant.domain.model.ChatWithMessages
-import com.mo.sh.studyassistant.domain.model.Message
-import com.mo.sh.studyassistant.domain.model.NetworkResult
+import ai.assist.palmai.app.R
+import ai.assist.palmai.app.domain.model.ChatWithMessages
+import ai.assist.palmai.app.domain.model.Message
+import ai.assist.palmai.app.domain.model.NetworkResult
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable

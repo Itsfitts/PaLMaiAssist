@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.settings
+package ai.assist.palmai.app.presentation.settings
 
 import android.content.Intent
 import android.net.Uri

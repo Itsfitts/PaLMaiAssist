@@ -1,9 +1,9 @@
-package com.mo.sh.studyassistant.data.network
+package ai.assist.palmai.app.data.network
 
-import com.mo.sh.studyassistant.domain.model.PalmMessagesResponse
-import com.mo.sh.studyassistant.domain.model.PalmTextPrompt
-import com.mo.sh.studyassistant.domain.model.PalmTextResponse
-import com.mo.sh.studyassistant.domain.model.PalmeMessagePrompt
+import ai.assist.palmai.app.domain.model.PalmMessagesResponse
+import ai.assist.palmai.app.domain.model.PalmTextPrompt
+import ai.assist.palmai.app.domain.model.PalmTextResponse
+import ai.assist.palmai.app.domain.model.PalmeMessagePrompt
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.request.headers

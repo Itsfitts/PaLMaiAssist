@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.ui.theme
+package ai.assist.palmai.app.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

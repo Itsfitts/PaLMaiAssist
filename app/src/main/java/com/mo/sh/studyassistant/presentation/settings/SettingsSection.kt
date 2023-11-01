@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.settings
+package ai.assist.palmai.app.presentation.settings
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding

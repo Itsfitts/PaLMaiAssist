@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant
+package ai.assist.palmai.app
 
 import org.junit.Test
 

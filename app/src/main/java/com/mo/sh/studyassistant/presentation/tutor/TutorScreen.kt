@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.tutor
+package ai.assist.palmai.app.presentation.tutor
 
 import android.graphics.Color
 import android.net.Uri
@@ -17,11 +17,11 @@ import androidx.compose.ui.res.stringResource
 import com.canhub.cropper.CropImageContract
 import com.canhub.cropper.CropImageContractOptions
 import com.canhub.cropper.CropImageOptions
-import com.mo.sh.studyassistant.R
-import com.mo.sh.studyassistant.domain.model.MessageSection
-import com.mo.sh.studyassistant.presentation.MainViewModel
-import com.mo.sh.studyassistant.presentation.common_components.AttachmentType
-import com.mo.sh.studyassistant.presentation.common_components.BaseChatSurface
+import ai.assist.palmai.app.R
+import ai.assist.palmai.app.domain.model.MessageSection
+import ai.assist.palmai.app.presentation.MainViewModel
+import ai.assist.palmai.app.presentation.common_components.AttachmentType
+import ai.assist.palmai.app.presentation.common_components.BaseChatSurface
 
 @Composable
 fun TutorScreen(

@@ -1,4 +1,4 @@
-# Contributing to AI Study Assistant
+# Contributing to PaLMai Assistant
 
 ### To contribute :
 
@@ -13,4 +13,4 @@
 - Fork the repo.
 - Create a feature branch in your fork and make your changes.
 - Keep it simple and make sure the app runs on an actual Android device and everything works as expected
-- Submit a pull request to the `dev` branch of the official [AI Study Assistant repo](https://github.com/mhss1/AIStudyAssistant/pulls) (PR to master will be rejected).
+- Submit a pull request to the `dev` branch of the official [PaLMai Assistant repo](https://github.com/mhss1/AIStudyAssistant/pulls) (PR to master will be rejected).

@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.common_components
+package ai.assist.palmai.app.presentation.common_components
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -51,11 +51,11 @@ import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.mo.sh.studyassistant.R
-import com.mo.sh.studyassistant.domain.model.Message
-import com.mo.sh.studyassistant.domain.model.MessageType
-import com.mo.sh.studyassistant.ui.theme.TertiaryColor
-import com.mo.sh.studyassistant.util.formatTime
+import ai.assist.palmai.app.R
+import ai.assist.palmai.app.domain.model.Message
+import ai.assist.palmai.app.domain.model.MessageType
+import ai.assist.palmai.app.ui.theme.TertiaryColor
+import ai.assist.palmai.app.util.formatTime
 import dev.jeziellago.compose.markdowntext.MarkdownText
 
 

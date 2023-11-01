@@ -16,7 +16,7 @@ class BaselineProfileGenerator {
 
     @Test
     fun addApiKeyAndChat() = baselineProfileRule.collectBaselineProfile(
-        packageName = "com.mo.sh.studyassistant",
+        packageName = "ai.assist.palmai.app",
         profileBlock = {
             startActivityAndWait()
             addApiKeyAndChat()

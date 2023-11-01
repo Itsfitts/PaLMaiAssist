@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.data.network
+package ai.assist.palmai.app.data.network
 
 object NetworkConstants {
 

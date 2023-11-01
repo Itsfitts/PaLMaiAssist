@@ -1,9 +1,9 @@
-package com.mo.sh.studyassistant.data.local
+package ai.assist.palmai.app.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.mo.sh.studyassistant.domain.model.Chat
-import com.mo.sh.studyassistant.domain.model.Message
+import ai.assist.palmai.app.domain.model.Chat
+import ai.assist.palmai.app.domain.model.Message
 
 const val DB_NAME = "messages_database"
 

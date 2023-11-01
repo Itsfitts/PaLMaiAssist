@@ -13,6 +13,6 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "Study Assistant"
+rootProject.name = "PaLMaiAssist"
 include ':app'
 include ':benchmark'

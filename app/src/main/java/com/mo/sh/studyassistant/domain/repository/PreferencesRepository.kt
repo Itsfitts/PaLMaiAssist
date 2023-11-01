@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.domain.repository
+package ai.assist.palmai.app.domain.repository
 
 import androidx.datastore.preferences.core.Preferences
 import kotlinx.coroutines.flow.Flow

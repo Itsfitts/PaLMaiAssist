@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.util
+package ai.assist.palmai.app.util
 
 object PromptUtil {
 

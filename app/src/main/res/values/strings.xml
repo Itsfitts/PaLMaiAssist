@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name" translatable="false">Study Assistant</string>
+    <string name="app_name" translatable="false">PaLMai Assistant</string>
 
     <!--Main Screen-->
-    <string name="personal_tutor_title">Personal Tutor</string>
-    <string name="personal_tutor_description">Your ultimate academic companion. Ask general questions, unravel complex concepts, solve and understand difficult questions.</string>
-    <string name="lecture_summaries_title">Lecture Summarizer</string>
-    <string name="lecture_summaries_description">Master lecture material effortlessly. Your Key to Comprehensive Understanding. Get detailed insights saving you time while ensuring you grasp the essentials</string>
+    <string name="personal_tutor_title">informativeAI</string>
+    <string name="personal_tutor_description">Your ultimate Knowledge Database. Ask general questions, unravel complex concepts, solve and understand difficult questions.</string>
+    <string name="lecture_summaries_title">SimplifynSummarize</string>
+    <string name="lecture_summaries_description">Master research or other material effortlessly. Your Key to Comprehensive Understanding. Get detailed insights saving you time while ensuring you grasp the essentials</string>
     <string name="writer_title">Writer</string>
     <string name="writer_description">Unlock your writing potential. Writer helps you express ideas eloquently and generate high-quality work. Streamline your writing process and excel in your assignments.</string>
     <string name="questions_title">Questions Generator</string>

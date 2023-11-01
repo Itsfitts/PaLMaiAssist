@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.ui.theme
+package ai.assist.palmai.app.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

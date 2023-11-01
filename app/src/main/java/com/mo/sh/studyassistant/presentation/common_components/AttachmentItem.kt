@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation.common_components
+package ai.assist.palmai.app.presentation.common_components
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

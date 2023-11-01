@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.presentation
+package ai.assist.palmai.app.presentation
 
 import android.content.Intent
 import android.net.Uri
@@ -28,17 +28,17 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.mo.sh.studyassistant.data.repository.DataStoreRepository.Companion.THEME
-import com.mo.sh.studyassistant.data.repository.DataStoreRepository.Companion.THEME_DARK
-import com.mo.sh.studyassistant.data.repository.DataStoreRepository.Companion.THEME_LIGHT
-import com.mo.sh.studyassistant.data.repository.DataStoreRepository.Companion.THEME_SYSTEM
-import com.mo.sh.studyassistant.presentation.main.MainScreen
-import com.mo.sh.studyassistant.presentation.questions.QuestionsScreen
-import com.mo.sh.studyassistant.presentation.settings.SettingsScreen
-import com.mo.sh.studyassistant.presentation.summarize.SummarizeScreen
-import com.mo.sh.studyassistant.presentation.tutor.TutorScreen
-import com.mo.sh.studyassistant.presentation.writer.WriterScreen
-import com.mo.sh.studyassistant.ui.theme.StudyAssistantTheme
+import ai.assist.palmai.app.data.repository.DataStoreRepository.Companion.THEME
+import ai.assist.palmai.app.data.repository.DataStoreRepository.Companion.THEME_DARK
+import ai.assist.palmai.app.data.repository.DataStoreRepository.Companion.THEME_LIGHT
+import ai.assist.palmai.app.data.repository.DataStoreRepository.Companion.THEME_SYSTEM
+import ai.assist.palmai.app.presentation.main.MainScreen
+import ai.assist.palmai.app.presentation.questions.QuestionsScreen
+import ai.assist.palmai.app.presentation.settings.SettingsScreen
+import ai.assist.palmai.app.presentation.summarize.SummarizeScreen
+import ai.assist.palmai.app.presentation.tutor.TutorScreen
+import ai.assist.palmai.app.presentation.writer.WriterScreen
+import ai.assist.palmai.app.ui.theme.StudyAssistantTheme
 import dagger.hilt.android.AndroidEntryPoint
 import java.io.File
 import java.io.FileInputStream

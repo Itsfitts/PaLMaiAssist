@@ -1,10 +1,10 @@
-package com.mo.sh.studyassistant.data.repository
+package ai.assist.palmai.app.data.repository
 
 import android.content.Context
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.preferencesDataStore
-import com.mo.sh.studyassistant.domain.repository.PreferencesRepository
+import ai.assist.palmai.app.domain.repository.PreferencesRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map

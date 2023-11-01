@@ -1,4 +1,4 @@
-package com.mo.sh.studyassistant.domain.model
+package ai.assist.palmai.app.domain.model
 
 import androidx.room.Embedded
 import androidx.room.Relation

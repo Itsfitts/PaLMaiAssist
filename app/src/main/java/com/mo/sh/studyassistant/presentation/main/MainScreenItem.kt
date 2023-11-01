@@ -1,8 +1,8 @@
-package com.mo.sh.studyassistant.presentation.main
+package ai.assist.palmai.app.presentation.main
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.mo.sh.studyassistant.domain.model.MessageSection
+import ai.assist.palmai.app.domain.model.MessageSection
 
 data class MainScreenItem(
     @StringRes val title: Int,

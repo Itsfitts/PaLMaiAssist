@@ -29,7 +29,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import ai.assist.palmai.app.R
 import ai.assist.palmai.app.domain.model.MessageSection
-import ai.assist.palmai.app.ui.theme.StudyAssistantTheme
+import ai.assist.palmai.app.ui.theme.PaLMaiTheme
 import sv.lib.squircleshape.CornerSmoothing
 import sv.lib.squircleshape.SquircleShape
 
@@ -101,7 +101,7 @@ fun MainScreenCard(
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
 fun MainScreenCardPreview() {
-    StudyAssistantTheme {
+    PaLMaiTheme {
         MainScreenCard(
             item = MainScreenItem(
                 title = R.string.personal_tutor_title,

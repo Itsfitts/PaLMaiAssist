@@ -33,7 +33,7 @@ private val LightColorPalette = lightColorScheme(
 )
 
 @Composable
-fun StudyAssistantTheme(
+fun PaLMaiTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {

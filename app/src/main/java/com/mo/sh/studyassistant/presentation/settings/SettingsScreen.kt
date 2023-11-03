@@ -221,7 +221,7 @@ fun SettingsScreen(
                 SettingsLinkItem(
                     title = stringResource(R.string.app_version),
                     iconRes = R.drawable.ic_version,
-                    url = "https://github.com/mhss1/AIStudyAssistant/releases"
+                    url = "https://github.com/mhss1/AIPaLMai/releases"
                 ) {
                     Text(
                         text = BuildConfig.VERSION_NAME,
@@ -233,7 +233,7 @@ fun SettingsScreen(
                 SettingsLinkItem(
                     title = stringResource(R.string.project_on_github),
                     iconRes = R.drawable.ic_github,
-                    url = "https://github.com/mhss1/AIStudyAssistant"
+                    url = "https://github.com/mhss1/AIPaLMai"
                 ) {}
             }
 
@@ -241,7 +241,7 @@ fun SettingsScreen(
                 SettingsLinkItem(
                     title = stringResource(R.string.request_feature_report_bug),
                     iconRes = R.drawable.ic_bulb,
-                    url = "https://github.com/mhss1/AIStudyAssistant/issues"
+                    url = "https://github.com/mhss1/AIPaLMai/issues"
                 ){}
             }
             item {

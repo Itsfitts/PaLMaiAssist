@@ -30,7 +30,7 @@ import androidx.navigation.NavController
 import ai.assist.palmai.app.R
 import ai.assist.palmai.app.domain.model.MessageSection
 import ai.assist.palmai.app.presentation.Screen
-import ai.assist.palmai.app.ui.theme.StudyAssistantTheme
+import ai.assist.palmai.app.ui.theme.PaLMaiTheme
 
 @Composable
 fun MainScreen(
@@ -88,7 +88,7 @@ fun MainScreen(
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
 fun MainScreenPreview() {
-    StudyAssistantTheme {
+    PaLMaiTheme {
         LazyColumn {
             items(items) { item ->
                 MainScreenCard(item = item) { }

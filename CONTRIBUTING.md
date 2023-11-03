@@ -5,7 +5,7 @@
 - Report bugs/glitches.
 - Create new issues to give us ideas and feedback.
 - Ask questions or suggest ideas in the comments section of any issue.
-- You can also help us clean up the [issue section](https://github.com/mhss1/AIStudyAssistant/issues) by identifying duplicate issues.
+- You can also help us clean up the [issue section](https://github.com/mhss1/AIPaLMai/issues) by identifying duplicate issues.
 
 ### Or if you are a developer:
 
@@ -13,4 +13,4 @@
 - Fork the repo.
 - Create a feature branch in your fork and make your changes.
 - Keep it simple and make sure the app runs on an actual Android device and everything works as expected
-- Submit a pull request to the `dev` branch of the official [PaLMai Assistant repo](https://github.com/mhss1/AIStudyAssistant/pulls) (PR to master will be rejected).
+- Submit a pull request to the `dev` branch of the official [PaLMai Assistant repo](https://github.com/mhss1/AIPaLMai/pulls) (PR to master will be rejected).

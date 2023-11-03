@@ -38,7 +38,7 @@ import ai.assist.palmai.app.presentation.settings.SettingsScreen
 import ai.assist.palmai.app.presentation.summarize.SummarizeScreen
 import ai.assist.palmai.app.presentation.tutor.TutorScreen
 import ai.assist.palmai.app.presentation.writer.WriterScreen
-import ai.assist.palmai.app.ui.theme.StudyAssistantTheme
+import ai.assist.palmai.app.ui.theme.PaLMaiTheme
 import dagger.hilt.android.AndroidEntryPoint
 import java.io.File
 import java.io.FileInputStream
@@ -57,7 +57,7 @@ class MainActivity : ComponentActivity() {
                 intPreferencesKey(THEME),
                 THEME_SYSTEM
             ).collectAsState(null)
-            if (theme != null) StudyAssistantTheme(
+            if (theme != null) PaLMaiTheme(
                 darkTheme = when (theme) {
                     THEME_LIGHT -> false
                     THEME_DARK -> true

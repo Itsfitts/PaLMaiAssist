@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name" translatable="false">PaLMai Assistant</string>
+    <string name="app_name" translatable="false">itsPaLMai Assistant</string>
 
     <!--Main Screen-->
-    <string name="personal_tutor_title">informativeAI</string>
-    <string name="personal_tutor_description">Your ultimate Knowledge Database. Ask general questions, unravel complex concepts, solve and understand difficult questions.</string>
+    <string name="personal_tutor_title">KnowAledgeAIdb</string>
+    <string name="personal_tutor_description">Your own knowledge hub, powered by PaLMai: Choose a topic and dive deep, with PaLMai breaking down concepts and providing the answers you need.</string>
     <string name="lecture_summaries_title">SimplifynSummarize</string>
-    <string name="lecture_summaries_description">Master research or other material effortlessly. Your Key to Comprehensive Understanding. Get detailed insights saving you time while ensuring you grasp the essentials</string>
-    <string name="writer_title">Writer</string>
-    <string name="writer_description">Unlock your writing potential. Writer helps you express ideas eloquently and generate high-quality work. Streamline your writing process and excel in your assignments.</string>
-    <string name="questions_title">Questions Generator</string>
-    <string name="questions_description">Enhance your learning experience. Generate multi-choice questions from lecture tailored to reinforce your understanding. Test your knowledge and prepare for exams.</string>
+    <string name="lecture_summaries_description">Ingest documents or research material effortlessly. PaLMai is your Key to Comprehensive Understanding. Get time-saving insights ensuring you grasp the essentials</string>
+    <string name="writer_title">aiWriter</string>
+    <string name="writer_description">PaLMai is the Writer that helps you express ideas eloquently and generate high-quality work. Streamline your writing process and excel in your assignments.</string>
+    <string name="questions_title">Code Copilot</string>
+    <string name="questions_description">Enhance your coding experience. Generate code with natural language, Have code explained in ways that reinforce your understanding. Expand your horizon and build!</string>
     <string name="main_screen_title">Welcome!</string>
-    <string name="main_screen_subtitle">Choose a section below and start studying.</string>
+    <string name="main_screen_subtitle">Choose a section below and explore the AI future.</string>
 
 
     <!--Chat-->
